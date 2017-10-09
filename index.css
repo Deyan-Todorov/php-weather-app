@@ -1,0 +1,56 @@
+body, html {
+    height: 100%;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1447774105426-9d78ea5204cd");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col-xs-12{
+    margin-top: 150px;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+input {
+    width: 75%;
+    max-width: 225px;
+}
+.form-row {
+    width: 100;
+    margin: 0 auto;
+    max-width: 325px;
+}
+button {
+    margin-left: 8px;
+    width: 25%;
+}
+
+#weather {
+    margin: 50px auto;
+    max-width: 100px;
+}
+
+.section {
+			border: 2px solid #e2dbce;
+			margin: 20px auto;
+			padding: 10px 20px;
+			overflow: hidden;
+			width: 290px;
+			text-align: center;
+
+			  background-image: -moz-linear-gradient(top, #f6f2ec, #e2dbce); /* FF3.6 */
+			  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f6f2ec),color-stop(1, #e2dbce)); /* Saf4+, Chrome */
+			            filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#f6f2ec', EndColorStr='#e2dbce'); /* IE6,IE7 */
+			        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f6f2ec', EndColorStr='#e2dbce')"; /* IE8 */
+		
+		}	
